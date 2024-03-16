@@ -1,0 +1,60 @@
+
+.toolbar {
+    -fx-background-color: rgba(255,255,255,1.0);
+    -fx-text-fill:black;
+}
+.btnStart {
+     -fx-background-color: #000000;
+    -fx-text-fill:white;
+    -fx-font-size: 15;
+     -fx-font-weight: bold;
+}
+.btnStart:hover {
+   -fx-background-color: #A91617;
+       -fx-text-fill:white;
+       -fx-font-size: 15;
+       -fx-font-weight: bold;
+}
+
+.dark_chess {
+    -fx-border-color: #65432D;
+    -fx-border-width: 0.5px;
+    -fx-background-color: #65432D;
+}
+.bright_chess {
+    -fx-border-color: #65432D;
+    -fx-border-width: 0.5px;
+    -fx-background-color: #F7ECCA;
+}
+.boarder{
+-fx-border-width: 0.5px;
+}
+.label-f {
+	-fx-font-size: 50;
+	-fx-font-weight: bold;
+	-fx-text-fill: red;
+
+}
+.description_backtracked {
+	-fx-text-fill: red;
+	-fx-font-size: 12;
+    -fx-font-style:italic;
+}
+.description_safe {
+	-fx-text-fill: green;
+	-fx-font-size: 12;
+    -fx-font-style:italic;
+}
+.footer{
+    -fx-background-color: #A91617;
+}
+.footer-label{
+    -fx-text-fill: #A91617;
+    -fx-font-weight: bold;
+}
+.splash_background{
+-fx-background-image: url("../images/splash_queen_image.png");
+-fx-background-repeat:no-repeat;
+-fx-background-size:cover,auto;
+-fx-background-position:center;
+}
